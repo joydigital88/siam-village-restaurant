@@ -1,0 +1,49 @@
+/* Section-Header */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+  url("../images/homepage/brand/brand6.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+}
+/* End of Section-Header */
+
+/* Section-Contact */
+#address {
+  text-align: center;
+}
+
+#address span {
+  display: block;
+}
+
+#address .row p {
+  font-size: 25px;
+  font-weight: 700;
+}
+/* End of Section-Contact */
+
+/* Section-Form */
+input[type="submit"] {
+  border: 3px solid #ab8f7a;
+  padding: 8px 55px;
+  font-size: 14px;
+  border-radius: none;
+  color: rgba(53, 53, 53, 0.719);
+  font-family: "Raleway";
+}
+
+input[type="submit"]:hover {
+  text-decoration: none;
+  background-color: #ab8f7a;
+  border-color: #ab8f7a;
+  color: #fff;
+}
+/* End of Section-Form */
+
+/* Section-Book-Table */
+#book-table {
+  background-color: rgb(242, 242, 242);
+}
+/* End of Section-Book-Table */

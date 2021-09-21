@@ -1,0 +1,138 @@
+/* Common Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+/* End of Common Styles */
+
+/* Section-Header */
+header {
+  background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+  url("../images/homepage/brand/brand6.jpg") center no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+}
+
+header nav {
+  position: relative;
+  z-index: 3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#fff;
+}
+
+.navbar-toggler {
+  background: white;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background: white;
+  border: white;
+}
+
+.logo {
+  font-size: 25px;
+  color: white !important;
+}
+
+header .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cover .inner {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cover .inner h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#menu .card {
+  background-color: #faf0d6;
+  border-radius: 3px;
+}
+/* End of Section-Header */
+
+/* Section-Menu */
+#menu .card img {
+  box-shadow: 1px 1px 5px #666666;
+  border-radius: 3px;
+}
+
+.headPage {
+  padding-left: 3%;
+}
+
+.headMenu {
+  padding-left: 2%;
+}
+
+.card-body {
+  position: relative;
+}
+.card-body span {
+  position: absolute;
+  bottom: 0;
+}
+/* End of Section-Menu */
+
+/* Section-Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.719);
+  color: white;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1;
+}
+
+footer p:first-child {
+  font-size: 18px;
+}
+/* End of Section-Footer */
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .cover .inner h2 {
+    font-size: 40px;
+  }
+
+  footer .inner {
+    padding: 20px 10px;
+  }
+}
+/* End of Responsive */

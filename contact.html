@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+
+    <!-- Section-Header -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light pt-4">
+        <a class="navbar-brand logo ml-4" href="index.html">
+          SIAM VILLAGE RESTAURANT
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="collapsibleNavbar">
+          <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="cover">
+        <div class="inner">
+          <h2 class="pb-4">CONTACT US</h2>
+        </div>
+      </div>
+    </header>
+    <!-- End of Section-Header -->
+
+    <!-- Section-Contact -->
+    <div id="address" class="container py-5">
+      <p class=" text-center">GET IN TOUCH WITH US</p>
+      <p class="pb-5 text-center" style="color:#AB8F7A">WE'D LOVE TO HEAR FROM YOU</span>
+        <div class="row">
+            <div class="col-md-4 mb-5">
+                <p>EMAIL</p>
+                <span>restaurant@siamvillage.com
+                    </span>
+                    <span>reserve@siamvillage.com</span>
+            </div>
+            <div class="col-md-4 mb-5">
+                <p>PHONE</p>
+                <span>(213) 826-9461
+                    
+                    </span>
+                    <span>(213) 826-9722</span>
+            </div>
+            <div class="col-md-4 mb-5">
+                <p>Los Angeles</p>
+                <span>1462 Harvard Drive</span>
+                <span>Redondo Beach, CA</span>
+            </div>
+        </div>
+    </div>
+    <!-- End of Section-Contact -->
+
+    <!-- Section-Form -->
+    <section id="form" class="container">
+        <form action="#" class="w-75 d-block mx-auto">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="your name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="email" name="email" required>
+            </div>
+            <div class="form-group">
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" class="form-control" placeholder="" required></textarea>
+        </div>
+            <input type="submit" class="btn d-block mx-auto my-5" value="Send">
+          </form>
+    </section>
+    <!-- End of Section-Form -->
+
+    <!-- Section-Book-Table -->
+    <section id="book-table" class="py-5 my-5">
+    <div class="container text-center w-50">
+        <h2 >BOOK A TABLE</h2>
+            </div>
+            <form action="#">
+                <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 py-4">
+                        <input type="text" class="form-control" id="name" placeholder="your name" name="name" required>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 py-4">
+                        <input type="email" class="form-control" id="email" placeholder="email" name="email" required>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 py-4">
+                        <input type="text" class="form-control" id="phone" placeholder="(123) 456-7890" name="phone" required>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 py-4">
+                        <select id="number-persons" name="number" class="form-control">
+                            <option value="1">1 Person</option>
+                            <option value="2">2 Persons</option>
+                            <option value="3">3 Persons</option>
+                            <option value="4">4 Persons</option>
+                          </select>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 py-4">
+                        <input type="date" id="date" name="date" class="form-control">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 py-4">
+                        <input type="time" id="time" name="time" class="form-control">
+                    </div>
+                </div>
+
+                </div>
+                <input type="submit" class="btn d-block mx-auto my-4" value="BOOK A TABLE">
+            </form>
+    </section>
+    <!-- End of Section-Book-Table -->
+
+    <!-- Section-Footer -->
+    <footer class="py-4">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <div class="px-4 mx-sm-5 inner">
+          <p class="pb-2">LOCATION</p>
+
+          <p><em>Los Angeles</em></p>
+          <p>1462 Harvard Drive</p>
+          <p>Redondo Beach</p>
+          <p>(213) 826-9461</p>
+        </div>
+
+        <div class="px-4 mx-sm-5 inner">
+          <p class="pb-2">HOURS</p>
+
+          <p><em>Monday - Saturday</em></p>
+          <p>11am - 11pm</p>
+          <p><em>Sunday </em></p>
+          <p>12pm - 10pm</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Section-Footer -->
+  </body>
+</html>
