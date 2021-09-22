@@ -289,11 +289,6 @@ figure {
   margin: 0;
 }
 
-#reserve .inner {
-  padding: 120px 0;
-  width: 70%;
-}
-
 figure {
   position: relative;
 }
@@ -335,6 +330,11 @@ figure .over a:hover {
 /* End of Section-Gallery */
 
 /* Section-Reserve */
+#reserve .inner {
+  padding: 120px 0;
+  width: 70%;
+}
+
 #reserve .inner a {
   border: 3px solid #ab8f7a;
   padding: 8px 55px;
@@ -446,7 +446,6 @@ footer p:first-child {
 }
 
 @media (max-width: 576px) {
-   
   #best-offers .description {
     padding-left: 20px;
   }
@@ -463,14 +462,13 @@ footer p:first-child {
    display: none;
   } 
 
-  
   .gallery_item-5 {
     display: none;
    } 
 
-  #reserve .container .inner {
-    margin: 0;
-    padding: 30px;
+  #reserve .inner {
+    padding: 30px 10px;
+    width: 100%;
   }
 
   #reserve h3 {
