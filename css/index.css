@@ -446,8 +446,9 @@ footer p:first-child {
 }
 
 @media (max-width: 576px) {
+   
   #best-offers .description {
-    padding-left: 0px;
+    padding-left: 20px;
   }
 
   .gallery {
